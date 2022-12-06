@@ -90,7 +90,7 @@ const isValidPincode = function (pincode) {
 //=============================// isValidImage //==============================
      
       const isValidImage = function(value){
-        let imageRegex = /^(https?:\/\/.*\/.*\.(png|gif|webp|jpeg|jpg)\??.*$)/
+        let imageRegex = /^(https?:\/\/.*\/.*\.(png|gif|webp|jpeg|jpg|html)\??.*$)/
         if(imageRegex.test(value)){
           return true
         }else {
